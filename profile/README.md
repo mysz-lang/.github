@@ -27,13 +27,11 @@ extern fn print_char(a: char);
 fn main(): int {
     // Fixed-size character array allocation
     var x: [char; 12] = ['H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!']; 
-    var i: int = 0;
     
     // Iterating and printing each character
-    while (i < 12) {
+    for (var i = 0; i < 12; i = i + 1) {
         print_char(x[i]);
-        i = i + 1;
-    };
+    }
     
     return 0;
 }
