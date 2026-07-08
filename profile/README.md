@@ -9,6 +9,8 @@ A mouse-loving mouse-based mouse-enthusiastic programming language project.
 
 Mysz is a compiled, statically-typed programming language designed to be simple.
 
+[check out the wiki!](https://github.com/mysz-lang/mysz-core/wiki)
+
 ### Type System
 Mysz features a straightforward static type system that maps cleanly to native machine types:
 * `int` – 64-bit signed integer (`i64`)
