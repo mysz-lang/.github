@@ -22,7 +22,7 @@ Mysz features a straightforward static type system that maps cleanly to native m
 Here is a simple program demonstrating array initialization, loop control structures, and interaction with foreign functions:
 
 ```mysz
-extern fn print_char(a: char);
+extern fn print_char(a: char, newline: bool);
 
 fn main(): int {
     // Fixed-size character array allocation
@@ -30,11 +30,16 @@ fn main(): int {
     
     // Iterating and printing each character
     for (var i = 0; i < 12; i = i + 1) {
-        print_char(x[i]);
+        print_char(x[i], false);
     }
     
     return 0;
 }
+```
+
+```
+> ./out
+Hello world!
 ```
 
 ## Contributing
