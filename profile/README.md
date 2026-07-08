@@ -5,6 +5,8 @@ A mouse-loving mouse-based mouse-enthusiastic programming language project.
 ## Repositories
 - **mysz-core** – main implementation of the language
 
+- **mysz-lang** – Cloudflare pages
+
 ## Mysz
 
 Mysz is a compiled, statically-typed programming language designed to be simple.
