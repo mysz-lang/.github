@@ -16,6 +16,7 @@ Mysz features a straightforward static type system that maps cleanly to native m
 * `bool` – Boolean value (`true`/`false`)
 * `str` – Immutable string reference / C character pointer
 * `[T; N]` – Fixed-size array of type `T` and length `N`
+* `ptr<T>` – A reference/pointer of type T
 
 ### Example Code
 
