@@ -14,7 +14,7 @@ Mysz features a straightforward static type system that maps cleanly to native m
 * `int` – 64-bit signed integer (`i64`)
 * `char` – 8-bit ASCII character/byte (`i8`)
 * `bool` – Boolean value (`true`/`false`)
-* `str` – Immutable string reference / character pointer
+* `str` – Immutable string reference / C character pointer
 * `[T; N]` – Fixed-size array of type `T` and length `N`
 
 ### Example Code
