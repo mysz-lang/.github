@@ -25,7 +25,7 @@ Here is a simple program demonstrating array initialization, loop control struct
 ```mysz
 extern fn print_char(a: char, newline: bool);
 
-fn main(): int {
+fn pub main(): int {
     // Fixed-size character array allocation
     var x: [char; 12] = ['H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!']; 
     
