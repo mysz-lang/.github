@@ -31,7 +31,7 @@ fn main(): int {
     // Iterating and printing each character
     for (var i = 0; i < 12; i = i + 1) {
         print_char(x[i], false);
-    }
+    };
     
     return 0;
 }
