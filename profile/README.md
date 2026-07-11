@@ -4,6 +4,7 @@ A mouse-loving mouse-based mouse-enthusiastic programming language project.
 
 ## Repositories
 - **mysz-core** – main implementation of the language
+- **mysz-runtime** – Runtime library written in C, to be accompanied with a standard library soon.
 
 ## Mysz
 
