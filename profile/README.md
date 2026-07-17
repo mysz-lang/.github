@@ -18,6 +18,8 @@ Mysz is a compiled, statically-typed programming language designed to be simple.
 Mysz features a straightforward static type system that maps cleanly to native machine types:
 * `int` – 64-bit signed integer (`i64`)
 * `uint` – 64-bit unsigned integer (`u64`)
+* `i8` – 8-bit signed integer
+* `u8` – 8-bit unsigned integer
 * `char` – 8-bit ASCII character/byte (`i8`)
 * `bool` – Boolean value (`true`/`false`)
 * `str` – Immutable string reference / C character pointer
