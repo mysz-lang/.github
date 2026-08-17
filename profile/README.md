@@ -26,29 +26,22 @@ Mysz features a straightforward static type system that maps cleanly to native m
 * `[T; N]` – Fixed-size array of type `T` and length `N`
 * `ptr<T>` – A reference/pointer of type T
 
-### Example Code
+###  Hello, world!
 
-Here is a simple program demonstrating array initialization, loop control structures, and interaction with foreign functions:
+The classic program everyone makes.
 
 ```mysz
 use std::io;
 
 fn pub main(): int {
-    // Fixed-size character array allocation
-    var x: [char; 12] = ['H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!']; 
-    
-    // Iterating and printing each character
-    for (var i = 0; i < 12; i = i + 1) {
-        char_print(x[i]);
-    };
-    
+    println("Hello, world!");
     return 0;
-}
+};
 ```
 
 ```
 > ./out
-Hello world!
+Hello, world!
 ```
 
 ## Contributing
