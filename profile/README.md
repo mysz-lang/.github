@@ -20,9 +20,9 @@ Mysz features a straightforward static type system that maps cleanly to native m
 * `uint` – 64-bit unsigned integer (`u64`)
 * `i8` – 8-bit signed integer
 * `u8` – 8-bit unsigned integer
-* `char` – 8-bit ASCII character/byte (`i8`)
+* `char` – 8-bit character byte (`u8`)
 * `bool` – Boolean value (`true`/`false`)
-* `str` – Immutable string reference / C character pointer
+* `str` – Immutable pointer to read-only memory (`.rodata`)
 * `[T; N]` – Fixed-size array of type `T` and length `N`
 * `ptr<T>` – A reference/pointer of type T
 
