@@ -39,7 +39,7 @@ fn pub main(): int {
     
     // Iterating and printing each character
     for (var i = 0; i < 12; i = i + 1) {
-        print_char(x[i]);
+        char_print(x[i]);
     };
     
     return 0;
