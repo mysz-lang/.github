@@ -31,7 +31,7 @@ Mysz features a straightforward static type system that maps cleanly to native m
 Here is a simple program demonstrating array initialization, loop control structures, and interaction with foreign functions:
 
 ```mysz
-extern fn print_char(a: char, newline: bool);
+use std::io;
 
 fn pub main(): int {
     // Fixed-size character array allocation
@@ -39,7 +39,7 @@ fn pub main(): int {
     
     // Iterating and printing each character
     for (var i = 0; i < 12; i = i + 1) {
-        print_char(x[i], false);
+        print_char(x[i]);
     };
     
     return 0;
