@@ -26,6 +26,8 @@ Mysz features a straightforward static type system that maps cleanly to native m
 * `[T; N]` – Fixed-size array of type `T` and length `N`
 * `ptr<T>` – A reference/pointer of type T
 * `nil` - A nil value
+* `float` - A 32-bit floating point (`f32`)
+* `double` - A 64-bit double-precision floating point (`f64`)
 
 ###  Hello, world!
 
