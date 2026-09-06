@@ -25,6 +25,7 @@ Mysz features a straightforward static type system that maps cleanly to native m
 * `str` – Immutable pointer to read-only memory (`.rodata`)
 * `[T; N]` – Fixed-size array of type `T` and length `N`
 * `ptr<T>` – A reference/pointer of type T
+* `nil` - A nil value
 
 ###  Hello, world!
 
